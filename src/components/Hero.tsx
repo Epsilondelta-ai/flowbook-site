@@ -93,7 +93,7 @@ export default function Hero() {
               src="/preview/"
               title="Flowbook Preview"
               className="w-full bg-surface"
-              style={{ height: 520, border: 'none' }}
+              style={{ height: 700, border: 'none' }}
             />
           </div>
         </div>
