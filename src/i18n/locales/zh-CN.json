@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — 流程图的 Storybook",
+    "description": "从代码库中自动发现 Mermaid 图表。按类别组织，在美观的查看器中浏览。"
+  },
+  "nav": {
+    "features": "功能",
+    "howItWorks": "工作原理",
+    "quickStart": "快速开始",
+    "aiSkills": "AI 技能",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "开源",
+    "title": "流程图的 Storybook",
+    "subtitle": "从代码库中自动发现 Mermaid 图表文件，按类别组织，并在可浏览的查看器中渲染。",
+    "getStarted": "开始使用",
+    "viewOnGithub": "在 GitHub 上查看",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "功能",
+    "sectionSubtitle": "文档化和可视化代码库流程所需的一切。",
+    "autoDiscovery": {
+      "title": "自动发现",
+      "description": "自动扫描项目中的 .flow.md 和 .flowchart.md 文件。无需手动配置。"
+    },
+    "categoryOrganization": {
+      "title": "分类组织",
+      "description": "通过可折叠侧边栏按类别组织图表。支持标签和搜索以快速导航。"
+    },
+    "liveReload": {
+      "title": "实时重载",
+      "description": "由 Vite HMR 驱动。编辑流程文件后立即在浏览器中查看更改。"
+    },
+    "aiPowered": {
+      "title": "AI 驱动生成",
+      "description": "AI 编码代理自动分析代码库，为每个重要的逻辑路径生成流程图。"
+    },
+    "mermaidRendering": {
+      "title": "Mermaid 渲染",
+      "description": "完全支持 Mermaid 11。流程图、时序图、类图等。"
+    },
+    "staticBuild": {
+      "title": "静态构建",
+      "description": "构建静态站点，部署到任何地方。非常适合文档托管。"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "工作原理",
+    "sectionSubtitle": "从 .flow.md 文件到美观的可浏览查看器，只需几秒。",
+    "step1": {
+      "title": "编写",
+      "description": "在项目的任何位置创建包含 YAML 前置元数据和 Mermaid 图表的 .flow.md 文件。"
+    },
+    "step2": {
+      "title": "发现",
+      "description": "Flowbook 的 Vite 插件自动发现所有流程文件，解析前置元数据并提取 Mermaid 块。"
+    },
+    "step3": {
+      "title": "浏览",
+      "description": "在有组织的、可搜索的界面中查看所有图表，支持实时重载。"
+    },
+    "pipeline": "流水线"
+  },
+  "quickStart": {
+    "sectionTitle": "快速开始",
+    "sectionSubtitle": "30 秒内启动运行。",
+    "step1Title": "初始化",
+    "step1Desc": "向项目添加脚本和示例流程文件。",
+    "step2Title": "启动开发服务器",
+    "step2Desc": "在 localhost:6200 打开带有 HMR 的 Flowbook 查看器。",
+    "step3Title": "生产构建",
+    "step3Desc": "生成可部署到任何地方的静态站点。"
+  },
+  "flowFile": {
+    "sectionTitle": "编写流程文件",
+    "sectionSubtitle": "简单的 Markdown，包含 YAML 前置元数据和 Mermaid 图表。",
+    "example": "示例 .flow.md 文件"
+  },
+  "aiSkills": {
+    "sectionTitle": "AI 代理技能",
+    "sectionSubtitle": "让 AI 编码代理为整个代码库自动生成流程文档。",
+    "description": "为您喜欢的编码代理安装 Flowbook 技能。当您在提示中提到 \"flowbook\" 时，代理将：",
+    "step1": "分析代码库的逻辑流程",
+    "step2": "如果尚未初始化则设置 Flowbook",
+    "step3": "生成包含 Mermaid 图表的 .flow.md 文件",
+    "step4": "验证构建",
+    "installTitle": "为您的代理安装",
+    "or": "或通过 skills.sh 安装"
+  },
+  "agents": {
+    "sectionTitle": "支持的代理",
+    "sectionSubtitle": "兼容所有主要 AI 编码代理。",
+    "agent": "代理",
+    "skill": "技能",
+    "slashCommand": "斜杠命令"
+  },
+  "cta": {
+    "title": "准备好可视化您的代码库了吗？",
+    "subtitle": "几秒内开始使用 Flowbook。开源。永久免费。",
+    "getStarted": "开始使用",
+    "starOnGithub": "在 GitHub 上加星"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "MIT 许可证",
+    "tagline": "流程图的 Storybook"
+  }
+}

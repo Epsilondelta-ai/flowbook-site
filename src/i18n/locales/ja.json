@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — フローチャートのための Storybook",
+    "description": "コードベースから Mermaid ダイアグラムを自動発見。カテゴリ別に整理し、美しいビューアで閲覧。"
+  },
+  "nav": {
+    "features": "機能",
+    "howItWorks": "仕組み",
+    "quickStart": "クイックスタート",
+    "aiSkills": "AI スキル",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "オープンソース",
+    "title": "フローチャートのための Storybook",
+    "subtitle": "コードベースから Mermaid ダイアグラムファイルを自動発見し、カテゴリ別に整理し、ブラウズ可能なビューアでレンダリングします。",
+    "getStarted": "始める",
+    "viewOnGithub": "GitHub で見る",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "機能",
+    "sectionSubtitle": "コードベースのフローをドキュメント化し可視化するために必要なすべて。",
+    "autoDiscovery": {
+      "title": "自動発見",
+      "description": "プロジェクト内の .flow.md および .flowchart.md ファイルを自動スキャン。手動設定は不要です。"
+    },
+    "categoryOrganization": {
+      "title": "カテゴリ整理",
+      "description": "折りたたみ可能なサイドバーでカテゴリ別にダイアグラムを整理。タグと検索で素早くナビゲーション。"
+    },
+    "liveReload": {
+      "title": "ライブリロード",
+      "description": "Vite HMR で動作。フローファイルを編集するとブラウザで即座に変更を確認できます。"
+    },
+    "aiPowered": {
+      "title": "AI パワード生成",
+      "description": "AI コーディングエージェントがコードベースを自動分析し、すべての重要なロジックパスのフローダイアグラムを生成します。"
+    },
+    "mermaidRendering": {
+      "title": "Mermaid レンダリング",
+      "description": "Mermaid 11 完全サポート。フローチャート、シーケンス図、クラス図など。"
+    },
+    "staticBuild": {
+      "title": "静的ビルド",
+      "description": "静的サイトをビルドしてどこにでもデプロイ。ドキュメントホスティングに最適。"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "仕組み",
+    "sectionSubtitle": ".flow.md ファイルから美しいブラウズ可能なビューアまで数秒で。",
+    "step1": {
+      "title": "書く",
+      "description": "プロジェクトのどこにでも YAML フロントマターと Mermaid ダイアグラムを含む .flow.md ファイルを作成。"
+    },
+    "step2": {
+      "title": "発見",
+      "description": "Flowbook の Vite プラグインがすべてのフローファイルを自動発見し、フロントマターを解析し、Mermaid ブロックを抽出。"
+    },
+    "step3": {
+      "title": "閲覧",
+      "description": "ライブリロード付きの整理された検索可能なインターフェースですべてのダイアグラムを表示。"
+    },
+    "pipeline": "パイプライン"
+  },
+  "quickStart": {
+    "sectionTitle": "クイックスタート",
+    "sectionSubtitle": "30 秒で起動。",
+    "step1Title": "初期化",
+    "step1Desc": "プロジェクトにスクリプトとサンプルフローファイルを追加。",
+    "step2Title": "開発サーバー起動",
+    "step2Desc": "HMR 付きで localhost:6200 に Flowbook ビューアを開く。",
+    "step3Title": "本番ビルド",
+    "step3Desc": "どこにでもデプロイ可能な静的サイトを生成。"
+  },
+  "flowFile": {
+    "sectionTitle": "フローファイルの書き方",
+    "sectionSubtitle": "YAML フロントマターと Mermaid ダイアグラムを含むシンプルな Markdown。",
+    "example": "サンプル .flow.md ファイル"
+  },
+  "aiSkills": {
+    "sectionTitle": "AI エージェントスキル",
+    "sectionSubtitle": "AI コーディングエージェントにコードベース全体のフロードキュメントを自動生成させましょう。",
+    "description": "お気に入りのコーディングエージェントに Flowbook スキルをインストール。プロンプトで「flowbook」と言及するとエージェントが：",
+    "step1": "コードベースの論理フローを分析",
+    "step2": "まだ初期化されていない場合 Flowbook をセットアップ",
+    "step3": "Mermaid ダイアグラム付きの .flow.md ファイルを生成",
+    "step4": "ビルドを検証",
+    "installTitle": "エージェントにインストール",
+    "or": "または skills.sh でインストール"
+  },
+  "agents": {
+    "sectionTitle": "対応エージェント",
+    "sectionSubtitle": "すべての主要 AI コーディングエージェントに対応。",
+    "agent": "エージェント",
+    "skill": "スキル",
+    "slashCommand": "スラッシュコマンド"
+  },
+  "cta": {
+    "title": "コードベースを可視化する準備はできましたか？",
+    "subtitle": "数秒で Flowbook を始めましょう。オープンソース。永久無料。",
+    "getStarted": "始める",
+    "starOnGithub": "GitHub でスター"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "MIT ライセンス",
+    "tagline": "フローチャートのための Storybook"
+  }
+}

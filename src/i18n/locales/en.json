@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — Storybook for Flowcharts",
+    "description": "Auto-discover Mermaid diagrams from your codebase. Organize by category. Browse in a beautiful viewer."
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "quickStart": "Quick Start",
+    "aiSkills": "AI Skills",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Open Source",
+    "title": "Storybook for Flowcharts",
+    "subtitle": "Auto-discovers Mermaid diagram files from your codebase, organizes them by category, and renders them in a browsable viewer.",
+    "getStarted": "Get Started",
+    "viewOnGithub": "View on GitHub",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "Features",
+    "sectionSubtitle": "Everything you need to document and visualize your codebase flows.",
+    "autoDiscovery": {
+      "title": "Auto-Discovery",
+      "description": "Automatically scans your project for .flow.md and .flowchart.md files. No manual configuration needed."
+    },
+    "categoryOrganization": {
+      "title": "Category Organization",
+      "description": "Organize diagrams by category with a collapsible sidebar. Tags and search for quick navigation."
+    },
+    "liveReload": {
+      "title": "Live Reload",
+      "description": "Powered by Vite HMR. Edit your flow files and see changes instantly in the browser."
+    },
+    "aiPowered": {
+      "title": "AI-Powered Generation",
+      "description": "AI coding agents automatically analyze your codebase and generate flow diagrams for every significant logic path."
+    },
+    "mermaidRendering": {
+      "title": "Mermaid Rendering",
+      "description": "Full Mermaid 11 support. Flowcharts, sequence diagrams, class diagrams, and more."
+    },
+    "staticBuild": {
+      "title": "Static Build",
+      "description": "Build a static site and deploy anywhere. Perfect for documentation hosting."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "From .flow.md files to a beautiful browsable viewer in seconds.",
+    "step1": {
+      "title": "Write",
+      "description": "Create .flow.md files with YAML frontmatter and Mermaid diagrams anywhere in your project."
+    },
+    "step2": {
+      "title": "Discover",
+      "description": "Flowbook's Vite plugin auto-discovers all flow files, parses frontmatter, and extracts Mermaid blocks."
+    },
+    "step3": {
+      "title": "Browse",
+      "description": "View all your diagrams in an organized, searchable interface with live reload."
+    },
+    "pipeline": "Pipeline"
+  },
+  "quickStart": {
+    "sectionTitle": "Quick Start",
+    "sectionSubtitle": "Up and running in 30 seconds.",
+    "step1Title": "Initialize",
+    "step1Desc": "Adds scripts and an example flow file to your project.",
+    "step2Title": "Start Dev Server",
+    "step2Desc": "Opens the Flowbook viewer at localhost:6200 with HMR.",
+    "step3Title": "Build for Production",
+    "step3Desc": "Generates a static site ready to deploy anywhere."
+  },
+  "flowFile": {
+    "sectionTitle": "Writing Flow Files",
+    "sectionSubtitle": "Simple Markdown with YAML frontmatter and Mermaid diagrams.",
+    "example": "Example .flow.md file"
+  },
+  "aiSkills": {
+    "sectionTitle": "AI Agent Skills",
+    "sectionSubtitle": "Let AI coding agents auto-generate flow documentation for your entire codebase.",
+    "description": "Install the Flowbook skill for your favorite coding agent. When you mention \"flowbook\" in your prompt, the agent will:",
+    "step1": "Analyze your codebase for logical flows",
+    "step2": "Set up Flowbook if not already initialized",
+    "step3": "Generate .flow.md files with Mermaid diagrams",
+    "step4": "Verify the build",
+    "installTitle": "Install for your agent",
+    "or": "or install via skills.sh"
+  },
+  "agents": {
+    "sectionTitle": "Supported Agents",
+    "sectionSubtitle": "Works with all major AI coding agents.",
+    "agent": "Agent",
+    "skill": "Skill",
+    "slashCommand": "Slash Command"
+  },
+  "cta": {
+    "title": "Ready to visualize your codebase?",
+    "subtitle": "Get started with Flowbook in seconds. Open source. Free forever.",
+    "getStarted": "Get Started",
+    "starOnGithub": "Star on GitHub"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "MIT License",
+    "tagline": "Storybook for Flowcharts"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — Storybook para fluxogramas",
+    "description": "Descubra automaticamente diagramas Mermaid do seu código. Organize por categoria. Navegue em um visualizador bonito."
+  },
+  "nav": {
+    "features": "Recursos",
+    "howItWorks": "Como funciona",
+    "quickStart": "Início rápido",
+    "aiSkills": "Skills de IA",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Código aberto",
+    "title": "Storybook para fluxogramas",
+    "subtitle": "Descobre automaticamente arquivos de diagramas Mermaid do seu código, organiza por categoria e renderiza em um visualizador navegável.",
+    "getStarted": "Começar",
+    "viewOnGithub": "Ver no GitHub",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "Recursos",
+    "sectionSubtitle": "Tudo que você precisa para documentar e visualizar os fluxos do seu código.",
+    "autoDiscovery": {
+      "title": "Descoberta automática",
+      "description": "Escaneia automaticamente seu projeto por arquivos .flow.md e .flowchart.md. Sem configuração manual."
+    },
+    "categoryOrganization": {
+      "title": "Organização por categorias",
+      "description": "Organize diagramas por categoria com uma barra lateral retrátil. Tags e busca para navegação rápida."
+    },
+    "liveReload": {
+      "title": "Recarga ao vivo",
+      "description": "Movido por Vite HMR. Edite seus arquivos de fluxo e veja as mudanças instantaneamente no navegador."
+    },
+    "aiPowered": {
+      "title": "Geração com IA",
+      "description": "Agentes de codificação IA analisam automaticamente seu código e geram diagramas de fluxo para cada caminho lógico importante."
+    },
+    "mermaidRendering": {
+      "title": "Renderização Mermaid",
+      "description": "Suporte completo ao Mermaid 11. Fluxogramas, diagramas de sequência, diagramas de classe e mais."
+    },
+    "staticBuild": {
+      "title": "Build estático",
+      "description": "Construa um site estático e implante em qualquer lugar. Perfeito para hospedagem de documentação."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Como funciona",
+    "sectionSubtitle": "De arquivos .flow.md para um belo visualizador navegável em segundos.",
+    "step1": {
+      "title": "Escreva",
+      "description": "Crie arquivos .flow.md com frontmatter YAML e diagramas Mermaid em qualquer lugar do seu projeto."
+    },
+    "step2": {
+      "title": "Descubra",
+      "description": "O plugin Vite do Flowbook descobre automaticamente todos os arquivos de fluxo, analisa o frontmatter e extrai os blocos Mermaid."
+    },
+    "step3": {
+      "title": "Navegue",
+      "description": "Veja todos os seus diagramas em uma interface organizada e pesquisável com recarga ao vivo."
+    },
+    "pipeline": "Pipeline"
+  },
+  "quickStart": {
+    "sectionTitle": "Início rápido",
+    "sectionSubtitle": "Funcionando em 30 segundos.",
+    "step1Title": "Inicializar",
+    "step1Desc": "Adiciona scripts e um arquivo de fluxo de exemplo ao seu projeto.",
+    "step2Title": "Iniciar servidor de desenvolvimento",
+    "step2Desc": "Abre o visualizador Flowbook em localhost:6200 com HMR.",
+    "step3Title": "Build de produção",
+    "step3Desc": "Gera um site estático pronto para implantar em qualquer lugar."
+  },
+  "flowFile": {
+    "sectionTitle": "Escrevendo arquivos de fluxo",
+    "sectionSubtitle": "Markdown simples com frontmatter YAML e diagramas Mermaid.",
+    "example": "Exemplo de arquivo .flow.md"
+  },
+  "aiSkills": {
+    "sectionTitle": "Skills de agentes IA",
+    "sectionSubtitle": "Deixe agentes de codificação IA gerarem automaticamente documentação de fluxos para todo seu código.",
+    "description": "Instale a skill do Flowbook para seu agente de codificação favorito. Quando você mencionar \"flowbook\" no prompt, o agente irá:",
+    "step1": "Analisar seu código em busca de fluxos lógicos",
+    "step2": "Configurar o Flowbook se ainda não estiver inicializado",
+    "step3": "Gerar arquivos .flow.md com diagramas Mermaid",
+    "step4": "Verificar o build",
+    "installTitle": "Instale para seu agente",
+    "or": "ou instale via skills.sh"
+  },
+  "agents": {
+    "sectionTitle": "Agentes suportados",
+    "sectionSubtitle": "Funciona com todos os principais agentes de codificação IA.",
+    "agent": "Agente",
+    "skill": "Skill",
+    "slashCommand": "Comando slash"
+  },
+  "cta": {
+    "title": "Pronto para visualizar seu código?",
+    "subtitle": "Comece com o Flowbook em segundos. Código aberto. Grátis para sempre.",
+    "getStarted": "Começar",
+    "starOnGithub": "Star no GitHub"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "Licença MIT",
+    "tagline": "Storybook para fluxogramas"
+  }
+}

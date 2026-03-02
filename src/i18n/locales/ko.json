@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — 플로우차트를 위한 스토리북",
+    "description": "코드베이스에서 Mermaid 다이어그램을 자동으로 발견합니다. 카테고리별로 정리하고 아름다운 뷰어로 탐색하세요."
+  },
+  "nav": {
+    "features": "기능",
+    "howItWorks": "작동 방식",
+    "quickStart": "빠른 시작",
+    "aiSkills": "AI 스킬",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "오픈 소스",
+    "title": "플로우차트를 위한 스토리북",
+    "subtitle": "코드베이스에서 Mermaid 다이어그램 파일을 자동으로 발견하고, 카테고리별로 정리하며, 탐색 가능한 뷰어로 렌더링합니다.",
+    "getStarted": "시작하기",
+    "viewOnGithub": "GitHub에서 보기",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "기능",
+    "sectionSubtitle": "코드베이스 플로우를 문서화하고 시각화하는 데 필요한 모든 것.",
+    "autoDiscovery": {
+      "title": "자동 탐색",
+      "description": ".flow.md 및 .flowchart.md 파일을 프로젝트에서 자동으로 스캔합니다. 수동 설정이 필요 없습니다."
+    },
+    "categoryOrganization": {
+      "title": "카테고리 정리",
+      "description": "접을 수 있는 사이드바로 다이어그램을 카테고리별로 정리합니다. 빠른 탐색을 위한 태그와 검색을 지원합니다."
+    },
+    "liveReload": {
+      "title": "실시간 리로드",
+      "description": "Vite HMR로 구동됩니다. 플로우 파일을 편집하면 브라우저에서 즉시 변경 사항을 확인할 수 있습니다."
+    },
+    "aiPowered": {
+      "title": "AI 기반 생성",
+      "description": "AI 코딩 에이전트가 코드베이스를 자동으로 분석하고 모든 중요한 로직 경로에 대한 플로우 다이어그램을 생성합니다."
+    },
+    "mermaidRendering": {
+      "title": "Mermaid 렌더링",
+      "description": "Mermaid 11 완벽 지원. 플로우차트, 시퀀스 다이어그램, 클래스 다이어그램 등을 지원합니다."
+    },
+    "staticBuild": {
+      "title": "정적 빌드",
+      "description": "정적 사이트를 빌드하여 어디든 배포할 수 있습니다. 문서 호스팅에 완벽합니다."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "작동 방식",
+    "sectionSubtitle": ".flow.md 파일에서 아름다운 탐색 가능한 뷰어까지 몇 초 만에.",
+    "step1": {
+      "title": "작성",
+      "description": "프로젝트 어디에서든 YAML 프론트매터와 Mermaid 다이어그램이 포함된 .flow.md 파일을 만드세요."
+    },
+    "step2": {
+      "title": "탐색",
+      "description": "Flowbook의 Vite 플러그인이 모든 플로우 파일을 자동으로 발견하고, 프론트매터를 파싱하며, Mermaid 블록을 추출합니다."
+    },
+    "step3": {
+      "title": "탐색",
+      "description": "실시간 리로드와 함께 정리된 검색 가능한 인터페이스에서 모든 다이어그램을 확인하세요."
+    },
+    "pipeline": "파이프라인"
+  },
+  "quickStart": {
+    "sectionTitle": "빠른 시작",
+    "sectionSubtitle": "30초 만에 시작하세요.",
+    "step1Title": "초기화",
+    "step1Desc": "프로젝트에 스크립트와 예제 플로우 파일을 추가합니다.",
+    "step2Title": "개발 서버 시작",
+    "step2Desc": "HMR과 함께 localhost:6200에서 Flowbook 뷰어를 엽니다.",
+    "step3Title": "프로덕션 빌드",
+    "step3Desc": "어디든 배포할 수 있는 정적 사이트를 생성합니다."
+  },
+  "flowFile": {
+    "sectionTitle": "플로우 파일 작성",
+    "sectionSubtitle": "YAML 프론트매터와 Mermaid 다이어그램이 포함된 간단한 Markdown.",
+    "example": "예제 .flow.md 파일"
+  },
+  "aiSkills": {
+    "sectionTitle": "AI 에이전트 스킬",
+    "sectionSubtitle": "AI 코딩 에이전트가 전체 코드베이스의 플로우 문서를 자동으로 생성하도록 하세요.",
+    "description": "좋아하는 코딩 에이전트에 Flowbook 스킬을 설치하세요. 프롬프트에서 \"flowbook\"을 언급하면 에이전트가:",
+    "step1": "코드베이스의 논리적 플로우를 분석합니다",
+    "step2": "아직 초기화되지 않은 경우 Flowbook을 설정합니다",
+    "step3": "Mermaid 다이어그램이 포함된 .flow.md 파일을 생성합니다",
+    "step4": "빌드를 검증합니다",
+    "installTitle": "에이전트에 설치",
+    "or": "또는 skills.sh로 설치"
+  },
+  "agents": {
+    "sectionTitle": "지원 에이전트",
+    "sectionSubtitle": "모든 주요 AI 코딩 에이전트와 호환됩니다.",
+    "agent": "에이전트",
+    "skill": "스킬",
+    "slashCommand": "슬래시 커맨드"
+  },
+  "cta": {
+    "title": "코드베이스를 시각화할 준비가 되셨나요?",
+    "subtitle": "몇 초 만에 Flowbook을 시작하세요. 오픈 소스. 영원히 무료.",
+    "getStarted": "시작하기",
+    "starOnGithub": "GitHub에서 Star"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "MIT 라이선스",
+    "tagline": "플로우차트를 위한 스토리북"
+  }
+}

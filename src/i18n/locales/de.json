@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Flowbook — Storybook für Flussdiagramme",
+    "description": "Entdecken Sie automatisch Mermaid-Diagramme aus Ihrer Codebasis. Organisieren Sie nach Kategorie. Durchstöbern Sie in einem eleganten Viewer."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "howItWorks": "Wie es funktioniert",
+    "quickStart": "Schnellstart",
+    "aiSkills": "KI-Skills",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Open Source",
+    "title": "Storybook für Flussdiagramme",
+    "subtitle": "Entdeckt automatisch Mermaid-Diagrammdateien aus Ihrer Codebasis, organisiert sie nach Kategorie und rendert sie in einem durchsuchbaren Viewer.",
+    "getStarted": "Loslegen",
+    "viewOnGithub": "Auf GitHub ansehen",
+    "installCommand": "npx flowbook@latest init"
+  },
+  "features": {
+    "sectionTitle": "Funktionen",
+    "sectionSubtitle": "Alles was Sie brauchen, um die Abläufe Ihrer Codebasis zu dokumentieren und zu visualisieren.",
+    "autoDiscovery": {
+      "title": "Automatische Erkennung",
+      "description": "Scannt Ihr Projekt automatisch nach .flow.md- und .flowchart.md-Dateien. Keine manuelle Konfiguration nötig."
+    },
+    "categoryOrganization": {
+      "title": "Kategorieorganisation",
+      "description": "Organisieren Sie Diagramme nach Kategorie mit einer einklappbaren Seitenleiste. Tags und Suche für schnelle Navigation."
+    },
+    "liveReload": {
+      "title": "Live-Neuladen",
+      "description": "Angetrieben von Vite HMR. Bearbeiten Sie Ihre Flow-Dateien und sehen Sie Änderungen sofort im Browser."
+    },
+    "aiPowered": {
+      "title": "KI-gestützte Generierung",
+      "description": "KI-Codierungsagenten analysieren Ihre Codebasis automatisch und generieren Flussdiagramme für jeden wichtigen Logikpfad."
+    },
+    "mermaidRendering": {
+      "title": "Mermaid-Rendering",
+      "description": "Volle Mermaid 11 Unterstützung. Flussdiagramme, Sequenzdiagramme, Klassendiagramme und mehr."
+    },
+    "staticBuild": {
+      "title": "Statischer Build",
+      "description": "Erstellen Sie eine statische Website und deployen Sie überall. Perfekt für Dokumentations-Hosting."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Wie es funktioniert",
+    "sectionSubtitle": "Von .flow.md-Dateien zu einem schönen durchsuchbaren Viewer in Sekunden.",
+    "step1": {
+      "title": "Schreiben",
+      "description": "Erstellen Sie .flow.md-Dateien mit YAML-Frontmatter und Mermaid-Diagrammen überall in Ihrem Projekt."
+    },
+    "step2": {
+      "title": "Entdecken",
+      "description": "Flowbooks Vite-Plugin entdeckt automatisch alle Flow-Dateien, parst Frontmatter und extrahiert Mermaid-Blöcke."
+    },
+    "step3": {
+      "title": "Durchstöbern",
+      "description": "Sehen Sie alle Ihre Diagramme in einer organisierten, durchsuchbaren Oberfläche mit Live-Neuladen."
+    },
+    "pipeline": "Pipeline"
+  },
+  "quickStart": {
+    "sectionTitle": "Schnellstart",
+    "sectionSubtitle": "In 30 Sekunden einsatzbereit.",
+    "step1Title": "Initialisieren",
+    "step1Desc": "Fügt Skripte und eine Beispiel-Flow-Datei zu Ihrem Projekt hinzu.",
+    "step2Title": "Entwicklungsserver starten",
+    "step2Desc": "Öffnet den Flowbook-Viewer auf localhost:6200 mit HMR.",
+    "step3Title": "Produktions-Build",
+    "step3Desc": "Generiert eine statische Website, bereit zum Deployen überall."
+  },
+  "flowFile": {
+    "sectionTitle": "Flow-Dateien schreiben",
+    "sectionSubtitle": "Einfaches Markdown mit YAML-Frontmatter und Mermaid-Diagrammen.",
+    "example": "Beispiel .flow.md-Datei"
+  },
+  "aiSkills": {
+    "sectionTitle": "KI-Agenten-Skills",
+    "sectionSubtitle": "Lassen Sie KI-Codierungsagenten automatisch Flow-Dokumentation für Ihre gesamte Codebasis generieren.",
+    "description": "Installieren Sie den Flowbook-Skill für Ihren bevorzugten Codierungsagenten. Wenn Sie \"flowbook\" in Ihrem Prompt erwähnen, wird der Agent:",
+    "step1": "Ihre Codebasis auf logische Abläufe analysieren",
+    "step2": "Flowbook einrichten, falls noch nicht initialisiert",
+    "step3": ".flow.md-Dateien mit Mermaid-Diagrammen generieren",
+    "step4": "Den Build verifizieren",
+    "installTitle": "Für Ihren Agenten installieren",
+    "or": "oder über skills.sh installieren"
+  },
+  "agents": {
+    "sectionTitle": "Unterstützte Agenten",
+    "sectionSubtitle": "Funktioniert mit allen wichtigen KI-Codierungsagenten.",
+    "agent": "Agent",
+    "skill": "Skill",
+    "slashCommand": "Slash-Befehl"
+  },
+  "cta": {
+    "title": "Bereit, Ihre Codebasis zu visualisieren?",
+    "subtitle": "Starten Sie mit Flowbook in Sekunden. Open Source. Für immer kostenlos.",
+    "getStarted": "Loslegen",
+    "starOnGithub": "Star auf GitHub"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by",
+    "license": "MIT-Lizenz",
+    "tagline": "Storybook für Flussdiagramme"
+  }
+}
