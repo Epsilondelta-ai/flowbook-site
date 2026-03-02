@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-
+import FlowbookPreview from './FlowbookPreview'
 export default function Hero() {
   const { t } = useTranslation()
   const [copied, setCopied] = useState(false)
@@ -87,63 +87,9 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Demo diagram preview */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="bg-surface-light border border-border rounded-2xl p-6 shadow-2xl">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-3 h-3 rounded-full bg-red-500/60" />
-              <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
-              <div className="w-3 h-3 rounded-full bg-green-500/60" />
-              <span className="text-xs text-text-secondary ml-2 font-mono">flowbook — localhost:6200</span>
-            </div>
-            <div className="bg-surface rounded-xl p-6 border border-border/50">
-              <div className="flex gap-4">
-                {/* Sidebar mock */}
-                <div className="hidden sm:block w-48 shrink-0 space-y-3">
-                  <div className="text-xs font-semibold text-text-secondary uppercase tracking-wider mb-2">Categories</div>
-                  {['Authentication', 'API Routes', 'Data Pipeline', 'State Management'].map((cat, i) => (
-                    <div key={cat} className={`text-xs px-3 py-2 rounded-lg ${i === 0 ? 'bg-primary/15 text-primary' : 'text-text-secondary'}`}>
-                      {cat}
-                    </div>
-                  ))}
-                </div>
-                {/* Diagram mock */}
-                <div className="flex-1 flex flex-col items-center justify-center py-4">
-                  <svg width="280" height="200" viewBox="0 0 280 200" fill="none" className="w-full max-w-[280px]">
-                    {/* User node */}
-                    <rect x="100" y="5" width="80" height="32" rx="6" fill="#646CFF" opacity="0.8" />
-                    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="11" fontFamily="monospace">User</text>
-                    {/* Arrow down */}
-                    <path d="M140 37v18" stroke="#646CFF" strokeWidth="2" opacity="0.5" />
-                    <path d="M136 51l4 6 4-6" fill="#646CFF" opacity="0.5" />
-                    {/* Diamond */}
-                    <polygon points="140,60 180,82 140,104 100,82" fill="#FF3670" opacity="0.2" stroke="#FF3670" strokeWidth="1.5" />
-                    <text x="140" y="86" textAnchor="middle" fill="#FF6B94" fontSize="10" fontFamily="monospace">Auth?</text>
-                    {/* Arrow left */}
-                    <path d="M100 82H55" stroke="#4ade80" strokeWidth="2" opacity="0.5" />
-                    <text x="78" y="76" textAnchor="middle" fill="#4ade80" fontSize="9" fontFamily="monospace">Yes</text>
-                    {/* Arrow right */}
-                    <path d="M180 82h45" stroke="#FF3670" strokeWidth="2" opacity="0.5" />
-                    <text x="202" y="76" textAnchor="middle" fill="#FF6B94" fontSize="9" fontFamily="monospace">No</text>
-                    {/* Dashboard node */}
-                    <rect x="5" y="70" width="48" height="24" rx="4" fill="#4ade80" opacity="0.2" stroke="#4ade80" strokeWidth="1" />
-                    <text x="29" y="86" textAnchor="middle" fill="#4ade80" fontSize="9" fontFamily="monospace">Dashboard</text>
-                    {/* Login node */}
-                    <rect x="227" y="70" width="48" height="24" rx="4" fill="#FF3670" opacity="0.2" stroke="#FF3670" strokeWidth="1" />
-                    <text x="251" y="86" textAnchor="middle" fill="#FF6B94" fontSize="9" fontFamily="monospace">Login</text>
-                    {/* Flow arrows down from diamond */}
-                    <path d="M140 104v20" stroke="#646CFF" strokeWidth="2" opacity="0.3" />
-                    {/* Bottom boxes */}
-                    <rect x="60" y="130" width="70" height="24" rx="4" fill="#646CFF" opacity="0.15" stroke="#646CFF" strokeWidth="1" />
-                    <text x="95" y="146" textAnchor="middle" fill="#8B8FFF" fontSize="9" fontFamily="monospace">API Call</text>
-                    <rect x="150" y="130" width="70" height="24" rx="4" fill="#646CFF" opacity="0.15" stroke="#646CFF" strokeWidth="1" />
-                    <text x="185" y="146" textAnchor="middle" fill="#8B8FFF" fontSize="9" fontFamily="monospace">Cache</text>
-                    <path d="M140 124l-45 6M140 124l45 6" stroke="#646CFF" strokeWidth="1.5" opacity="0.3" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* Live Flowbook preview */}
+        <div className="mt-16 max-w-5xl mx-auto">
+          <FlowbookPreview />
         </div>
       </div>
     </section>
