@@ -6,7 +6,7 @@
   "scripts": {
     "build:preview": "flowbook build --out-dir public/preview && node scripts/fix-preview-paths.mjs",
     "dev": "npm run build:preview && vite",
-    "build": "npm run build:preview && tsc -b && vite build",
+    "build": "npm run build:preview && tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview"
   },
