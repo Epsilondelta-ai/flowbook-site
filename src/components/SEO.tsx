@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { languages } from '../i18n'
 
-const SITE_URL = 'https://flowbook.dev'
+const SITE_URL = 'https://flowbook.epsilondelta.ai'
 
 function getHtmlLang(code: string): string {
   // Convert i18n codes to proper HTML lang attributes
