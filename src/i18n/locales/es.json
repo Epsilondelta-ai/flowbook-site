@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — Storybook para diagramas de flujo",
-    "description": "Descubre automáticamente diagramas Mermaid en tu código. Organiza por categoría. Navega en un visor elegante."
+    "title": "Flowbook — Storybook para diagramas de flujo | Visor Mermaid",
+    "description": "Descubre automáticamente diagramas de flujo Mermaid en tu código. Ideal para traspaso de conocimiento y documentación de código con flowbook.",
+    "keywords": "diagrama de flujo, flowchart, traspaso, transferencia de conocimiento, flowbook, mermaid flowchart, documentación de código, diagrama mermaid, traspaso de proyecto, herramienta de diagramas"
   },
   "nav": {
     "features": "Características",

@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — Storybook for Flowcharts",
-    "description": "Auto-discover Mermaid diagrams from your codebase. Organize by category. Browse in a beautiful viewer."
+    "title": "Flowbook — Storybook for Flowcharts | Mermaid Diagram Viewer",
+    "description": "Auto-discover Mermaid flowchart diagrams from your codebase. Organize by category, browse in a beautiful viewer. The best flowbook for code handover and documentation.",
+    "keywords": "flowchart, flowbook, mermaid flowchart, handover, knowledge transfer, code documentation, diagram, mermaid diagram, code handover, flowchart documentation, storybook for flowcharts"
   },
   "nav": {
     "features": "Features",

@@ -44,8 +44,8 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['querystring', 'localStorage', 'navigator'],
-      lookupQuerystring: 'lang',
+      order: ['path', 'localStorage', 'navigator'],
+      lookupFromPathIndex: 0,
       caches: ['localStorage'],
     },
   });

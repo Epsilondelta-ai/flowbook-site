@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — 流程图的 Storybook",
-    "description": "从代码库中自动发现 Mermaid 图表。按类别组织，在美观的查看器中浏览。"
+    "title": "Flowbook — 流程图的 Storybook | Mermaid 图表查看器",
+    "description": "从代码库中自动发现 Mermaid 流程图。按类别组织，在美观的查看器中浏览。工作交接和代码文档化的最佳 flowbook 工具。",
+    "keywords": "流程图, flowchart, 工作交接, 交接文档, flowbook, mermaid flowchart, 代码文档, mermaid 流程图, 图表工具, 代码交接, 流程图工具"
   },
   "nav": {
     "features": "功能",

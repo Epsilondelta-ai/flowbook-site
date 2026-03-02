@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — Storybook für Flussdiagramme",
-    "description": "Entdecken Sie automatisch Mermaid-Diagramme aus Ihrer Codebasis. Organisieren Sie nach Kategorie. Durchstöbern Sie in einem eleganten Viewer."
+    "title": "Flowbook — Storybook für Flussdiagramme | Mermaid-Diagramm-Viewer",
+    "description": "Entdecken Sie automatisch Mermaid-Flussdiagramme aus Ihrer Codebasis. Ideal für Übergabe und Code-Dokumentation mit flowbook.",
+    "keywords": "Flussdiagramm, flowchart, Übergabe, Wissenstransfer, flowbook, mermaid flowchart, Code-Dokumentation, Mermaid-Diagramm, Ablaufdiagramm, Diagramm-Tool"
   },
   "nav": {
     "features": "Funktionen",

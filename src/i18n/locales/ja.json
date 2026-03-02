@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — フローチャートのための Storybook",
-    "description": "コードベースから Mermaid ダイアグラムを自動発見。カテゴリ別に整理し、美しいビューアで閲覧。"
+    "title": "Flowbook — フローチャートのための Storybook | Mermaid ダイアグラムビューア",
+    "description": "コードベースから Mermaid フローチャートを自動発見。引き継ぎ文書やコードドキュメントに最適な flowbook ツール。",
+    "keywords": "フローチャート, flowchart, 引き継ぎ, 引継ぎ, flowbook, mermaid flowchart, コードドキュメント, mermaid フローチャート, ダイアグラム, 業務引き継ぎ, フローチャートツール"
   },
   "nav": {
     "features": "機能",

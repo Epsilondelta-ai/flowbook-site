@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Flowbook — 플로우차트를 위한 스토리북",
-    "description": "코드베이스에서 Mermaid 다이어그램을 자동으로 발견합니다. 카테고리별로 정리하고 아름다운 뷰어로 탐색하세요."
+    "title": "Flowbook — 플로우차트를 위한 스토리북 | Mermaid 다이어그램 뷰어",
+    "description": "코드베이스에서 Mermaid 플로우차트 다이어그램을 자동으로 발견합니다. 인수인계 문서화와 업무 플로우차트 관리에 최적화된 flowbook입니다.",
+    "keywords": "플로우차트, flowchart, 인수인계, flowbook, mermaid flowchart, 업무 인수인계, 인수인계 문서, 플로우차트 도구, 코드 문서화, 머메이드 플로우차트, 다이어그램, 업무 흐름도"
   },
   "nav": {
     "features": "기능",

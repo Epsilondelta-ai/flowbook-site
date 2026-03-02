@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 import { languages } from '../i18n'
 
 export default function Header() {
   const { t, i18n } = useTranslation()
+  const navigate = useNavigate()
   const [langOpen, setLangOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -14,7 +16,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 no-underline">
+          <a href={`/${i18n.language}`} className="flex items-center gap-2 no-underline">
             <img src="/android-chrome-192x192.png" alt="Flowbook" width="28" height="28" className="shrink-0 rounded" />
             <span className="text-lg font-bold text-text-primary">Flowbook</span>
           </a>
@@ -60,7 +62,7 @@ export default function Header() {
                     <button
                       key={lang.code}
                       onClick={() => {
-                        i18n.changeLanguage(lang.code)
+                        navigate(`/${lang.code}`)
                         setLangOpen(false)
                       }}
                       className={`w-full text-left px-4 py-2 text-sm flex items-center gap-2 hover:bg-surface-lighter transition-colors cursor-pointer bg-transparent border-none ${
@@ -120,7 +122,7 @@ export default function Header() {
                   <button
                     key={lang.code}
                     onClick={() => {
-                      i18n.changeLanguage(lang.code)
+                      navigate(`/${lang.code}`)
                       setMobileOpen(false)
                     }}
                     className={`text-xs px-2 py-1.5 rounded-lg text-center cursor-pointer bg-transparent border-none ${
