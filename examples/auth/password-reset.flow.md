@@ -10,7 +10,7 @@ description: Forgot password flow — email verification, token validation, and 
 flowchart TD
     A([POST /auth/forgot-password]) --> B[/Email Input/]
     B --> C[(Find User by Email)]
-    C -->|Not Found| D[\200 OK]
+    C -->|Not Found| D[\200 OK/]
     C -->|Found| E[Generate Reset Token]
     E --> F[(Store Token with Expiry)]
     F --> G[[Send Reset Email]]
