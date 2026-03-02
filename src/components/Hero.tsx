@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import FlowbookPreview from './FlowbookPreview'
 export default function Hero() {
   const { t } = useTranslation()
   const [copied, setCopied] = useState(false)
@@ -87,9 +86,16 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Live Flowbook preview */}
+        {/* Live Flowbook — actual flowbook build output */}
         <div className="mt-16 max-w-5xl mx-auto">
-          <FlowbookPreview />
+          <div className="rounded-2xl overflow-hidden border border-border shadow-2xl">
+            <iframe
+              src="/preview/"
+              title="Flowbook Preview"
+              className="w-full bg-surface"
+              style={{ height: 520, border: 'none' }}
+            />
+          </div>
         </div>
       </div>
     </section>

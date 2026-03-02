@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Flowbook preview build output (generated during build)
+public/preview
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
