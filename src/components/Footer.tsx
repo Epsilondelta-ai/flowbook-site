@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <img src="/flowbook/android-chrome-192x192.png" alt="Flowbook" width="20" height="20" className="rounded" />
+            <img src="/android-chrome-192x192.png" alt="Flowbook" width="20" height="20" className="rounded" />
             <span className="text-sm text-text-secondary">
               Flowbook — {t('footer.tagline')}
             </span>

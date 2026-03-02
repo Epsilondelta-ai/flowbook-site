@@ -15,7 +15,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 no-underline">
-            <img src="/flowbook/android-chrome-192x192.png" alt="Flowbook" width="28" height="28" className="shrink-0 rounded" />
+            <img src="/android-chrome-192x192.png" alt="Flowbook" width="28" height="28" className="shrink-0 rounded" />
             <span className="text-lg font-bold text-text-primary">Flowbook</span>
           </a>
 
